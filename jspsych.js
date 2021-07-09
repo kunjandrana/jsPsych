@@ -146,7 +146,7 @@ window.jsPsych = (function() {
           opts.display_element = display;
         }
       }
-      opts.display_element.innerHTML = '<div class="jspsych-content-wrapper"><link href='https://cdn.jsdelivr.net/gh/jspsych/jsPsych@6.3.1/css/jspsych.css'" rel='stylesheet' type='text/css'><div id="jspsych-content"></div></div>';
+      opts.display_element.innerHTML = '<div class="jspsych-content-wrapper"><link href="https://cdn.jsdelivr.net/gh/jspsych/jsPsych@6.3.1/css/jspsych.css" rel="stylesheet" type="text/css"><div id="jspsych-content"></div></div>';
       DOM_container = opts.display_element;
       DOM_target = document.querySelector('#jspsych-content');
     
